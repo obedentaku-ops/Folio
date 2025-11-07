@@ -1,0 +1,39 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    padding-left: 33.3%;
+    font-size: 16px;
+}
+    
+pomme_logo.jpg{
+    border-radius: 27%;
+}
+.z3{
+    float: right;
+    height: 81%;
+    width: 32%;
+    margin: 0;
+    border-radius: 5%;
+    align-content: center;
+    padding-right: 33%;
+}
+.z4{
+    margin: left;
+    float: right;
+    height: 81%;
+    width: 32%;
+    margin: 0;
+    border-radius: 5%;
+    align-content: center;
+    padding-right: 33%;
+}
+.z5{
+    margin: right;
+    float: right;
+    height: 81%;
+    width: 32%;
+    margin: 0;
+    border-radius: 5%;
+    align-content: left;
+    padding-right: 33%;
+}
