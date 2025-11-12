@@ -1,18 +1,37 @@
+function effacer()
+{
+    t1.value = "" ;
+    t2.value = "" ;
+    t3.value = "" ;
+    t4.value = "" ;
+    t5.value = "" ;
+    t6.value = "" ;
+    t7.value = "" ;
+    t8.value = "" ;
+    t9.value = "" ;
+    t10.value = "" ;
+}
+
 function somme()
 {
     var a = document.getElementById("t1").value;
-    var b = document.getElementById("t2").value;
-    var c = Number (a) + Number (b);
-    document.getElementById("resultat").value = c;
+    var b = document.getElementById("t4").value;
+    var c = Number (a) * Number (b);
+    document.getElementById("t7").value = c;
 
+    var d = document.getElementById("t2").value;
+    var e = document.getElementById("t5").value;
+    var f = Number (d) * Number (e);
+    document.getElementById("t8").value = f;
 
-    var a = document.getElementById("t1").value;
-    var b = document.getElementById("t2").value;
-    var c = Number (a) + Number (b);
-    document.getElementById("resultat").value = c;
+    var g = document.getElementById("t3").value;
+    var h = document.getElementById("t6").value;
+    var i = Number (g) * Number (h);
+    document.getElementById("t9").value = i;
 
-    var a = document.getElementById("t1").value;
-    var b = document.getElementById("t2").value;
-    var c = Number (a) + Number (b);
-    document.getElementById("resultat").value = c;
+    var a = document.getElementById("t7").value;
+    var b = document.getElementById("t8").value;
+    var c = document.getElementById("t9").value;
+    var d = Number (a) + Number (b)+ Number (c);
+    document.getElementById("t10").value = d;
 }
