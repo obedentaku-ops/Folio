@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PS5 Pro</title>
+</head>
+<body bgcolor="#7D7774">
+        <h1>PS5 Pro</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>La PS5 Pro, sortie en novembre 2024, est une version plus puissante de la PlayStation 5. Elle offre de bien meilleures performances graphiques, un ray tracing plus avancé, une mémoire plus rapide, et un SSD de 2 To. Elle utilise aussi une technologie d’upscaling IA pour améliorer la qualité visuelle des jeux. La console est compatible 4K/120 fps et même 8K. Elle est vendue 799,99 € en version digitale (lecteur disque vendu séparément)</td>
+                <td><img src="img ps5.webp" width="200" height="300"></td>
+                <td>799,99€</td>
+            </tbody>
+        </table>
+
+        <a href="index222.html">Retour à l'accueil</a>
+</body>
+</html>

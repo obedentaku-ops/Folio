@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xbox Serie X</title>
+</head>
+<body bgcolor="#7D7774">
+        <h1>Xbox Serie X</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>La Xbox Series X de Microsoft est une console de salon très puissante de neuvième génération. Elle propose du jeu en 4K native, jusqu’à 120 images par seconde, un GPU de ~12 TFLOPS avec architecture RDNA2, un SSD NVMe ultra-rapide de 1 To qui réduit fortement les temps de chargement, et elle est rétrocompatible avec les titres des générations précédentes (Xbox One, Xbox 360, Xbox original). Elle intègre aussi un lecteur Blu-ray Ultra HD.</td>
+                <td><img src="xobx.jpg" width="200" height="300"></td>
+                <td>549,99€</td>
+            </tbody>
+        </table>
+
+        <a href="index222.html">Retour à l'accueil</a>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ASUS ROG Ally X</title>
+</head>
+<body bgcolor="#7D7774">
+        <h1>ASUS ROG Ally X</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>L’ASUS ROG Ally X est une console portable puissante sortie en 2024, avec un processeur AMD Ryzen Z1 Extreme et un GPU Radeon RDNA 3. Elle possède 24 Go de RAM, un SSD de 1 To, et un écran tactile Full HD 120 Hz de 7 pouces. Fonctionnant sous Windows 11, elle permet de jouer à de nombreux jeux PC partout. Sa batterie offre environ 2h30 de jeu et elle pèse 685 g.</td>
+                <td><img src="asus.png" width="300" height="200"></td>
+                <td>899,99€</td>
+            </tbody>
+        </table>
+
+        <a href="index222.html">Retour à l'accueil</a>
+</body>
+</html>

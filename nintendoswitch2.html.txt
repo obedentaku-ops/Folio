@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nintendo Switch 2</title>
+</head>
+<body bgcolor="#7D7774">
+        <h1>Nintendo Switch 2</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Prix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>La Nintendo Switch 2, sortie en 2025, est une console hybride améliorée avec un processeur plus puissant, un écran Full HD et une meilleure autonomie. Elle est compatible avec les jeux et accessoires de la Switch originale. Elle propose un large choix de jeux, dont plusieurs exclusivités, et un accessoire pour jouer aux classiques en 3D. Disponible depuis février 2026, elle allie puissance et portabilité.</td>
+                <td><img src="switch.jpg" width="400" height="300"></td>
+                <td>469,99€</td>
+            </tbody>
+        </table>
+
+        <a href="index222.html">Retour à l'accueil</a>
