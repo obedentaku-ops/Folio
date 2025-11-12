@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><h2>Ma page personnelle</h2>
+</head>
+<body bgcolor="#DE634B
+">
+    <center><h1>Mrabet Elies</h1></center>
+    <br>
+    <center><img src="img pp.jpg2" height="300" width="400"></center>
+    <br>
+    <li>Je suis passionné de football, un sport qui m’apprend le travail d’équipe et la persévérance. J’aime aussi l’informatique, qui stimule ma curiosité et mon esprit logique. Ces deux centres d’intérêt me permettent de m’épanouir tant sur le plan sportif que technique.</li>
+</body>
+</html>

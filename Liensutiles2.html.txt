@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#1AFF31">
+<a href="https://docs.google.com/document/d/1ucijgP8RcpCGFIrW3sKvjhhtbXPv0kHDT-T5o8VgtSc/edit?tab=t.0" target="f2">lettre de motivation</a>
+<br><a href="Recherche de stage en informatique (1)2.pdf">Cv</a>
+<br><a href="https://docs.google.com/spreadsheets/d/1oZhUakCR7vWP0bLDoUYNJoswKTyUFRh-/edit?gid=1218208343#gid=1218208343">Tableau des stages</a>    
+
+    
+</body>
+
+</html>
+
+
+
