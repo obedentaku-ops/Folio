@@ -1,39 +1,54 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    justify-content: center;
-    padding-left: 33.3%;
-    font-size: 16px;
+    background-color: white;
 }
-    
-pomme_logo.jpg{
-    border-radius: 27%;
+
+header{
+    color: white;
 }
-.z3{
-    float: right;
-    height: 81%;
-    width: 32%;
-    margin: 0;
-    border-radius: 5%;
-    align-content: center;
-    padding-right: 33%;
+
+
+.z1{
+    background-color:white ;
+    margin-left: 50px ;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 30px ;
+    height: 400px;
+    width: 100%;
+    clear: both;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.z4{
-    margin: left;
-    float: right;
-    height: 81%;
-    width: 32%;
-    margin: 0;
-    border-radius: 5%;
-    align-content: center;
-    padding-right: 33%;
+
+.b2{ 
+    margin-left: 100px;
+    text-align: left;
+    font-size: 20px ;   
+    height: 300px;
+    width: 40%;
+    float: left; 
 }
-.z5{
-    margin: right;
-    float: right;
-    height: 81%;
-    width: 32%;
-    margin: 0;
-    border-radius: 5%;
-    align-content: left;
-    padding-right: 33%;
+
+.b3{
+    margin-left: 100px;
+    text-align: left;
+    font-size: 20px ;
+    height: 300px;
+    width: 30%;
+    float: right; 
+}
+
+.b4{
+    background-color: white;
+    margin-left: 50px;
+    height: 95%;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+img{border-radius: 20px;}
+
+.h3{
+    font-weight:bold;
+    color: gray;
 }
