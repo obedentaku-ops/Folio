@@ -7,7 +7,7 @@ header{
 }
 
 
-.z1{
+.z0{
     background-color:white ;
     margin-left: 50px ;
     margin-bottom: 10px;
@@ -20,7 +20,7 @@ header{
     font-family:'Franklin Gothic Medium', Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.b2{ 
+.z1{ 
     margin-left: 100px;
     text-align: left;
     font-size: 20px ;   
@@ -29,7 +29,7 @@ header{
     float: left; 
 }
 
-.b3{
+.z2{
     margin-left: 100px;
     text-align: left;
     font-size: 20px ;
@@ -38,7 +38,7 @@ header{
     float: right; 
 }
 
-.b4{
+.z3{
     background-color: white;
     margin-left: 50px;
     height: 95%;
@@ -48,7 +48,8 @@ header{
 
 img{border-radius: 20px;}
 
-.h3{
+.z4{
     font-weight:bold;
     color: gray;
 }
+
