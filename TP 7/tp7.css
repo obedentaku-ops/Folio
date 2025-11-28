@@ -1,0 +1,23 @@
+div{
+    background-color: aqua;
+
+    height: 200px;
+    width: 800px;
+    margin: 10px;
+}
+p
+{
+    color: black;
+}
+
+.c1{
+    background-color: bisque;
+    height: 200px;
+    width: 800px;
+    margin: 10px;
+}
+.p1
+{
+    color: blue;
+
+}
