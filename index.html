@@ -1,89 +1,153 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Obede Ntaku</title>
+
+  <!-- =========================
+       🟢 STYLES GLOBAUX
+       ========================= -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="loading.css">
 </head>
+
 <body>
-    <h1>Portfolio</h1>
 
-    <br>
-    <br>
-    <br>
-    <h2>Mes TP</h2>
-    <br>
-    <br>
-    <a href="TP 1/tp1.html">TP 1</a>
-    <br>
-    <a href="TP 2/tp2.html">TP 2</a>
-    <br>
-    <a href="TP 3/tp3.html">TP 3</a>
-    <br>
-    <a href="TP 4/tp4.html">TP 4</a>
-    <br>
-    <a href="TP 5/tp5.html">TP 5</a>
-    <br>
-    <a href="TP 6/tp6.html">TP 6</a>
-    <br>
-    <a href="TP 7/tp7.html">TP 7</a>
-    <br>
-    <a href="TP 7'2/tp72.html">TP 7.2</a>
-    <br>
-    <a href="TP 8/tp8.html">TP 8</a>
-    <br>
-    <a href="TP 9/calculatrice.html">TP 9</a>
-    <br>
-    <a href="TP 10/tp10.html">TP 10</a>
-    <br>
-    <a href="TP 11/tp11.html">TP 11</a>
-    <br>
-    <a href="TP 12/tp2js.html">TP 12</a>
-    <br>
-    <a href="TP 13/tp13.html">TP 13</a>
-    <br>
-    <a href="TP 14/tp14.html">TP 14</a>
-    <br>
-    <a href="TP 15/tp15.html">TP 15</a>
-    <br>
-    <br>
-    <h2>Mes Missions</h2>
-    <br>
-    <br>
-    <a href="Mission 2/mission2.html">Mission 2</a>
-    <br>
-    <br>
-    <a href="Mission 3/mission3.html">Mission 3</a>
-    <br>
-    <br>
-    <a href="Mission 4/Mission 4.pdf">Mission 4</a>
-    <br>
-    <br>
-    <a href="Mission 5/mission5.html">Mission 5</a>
-    <br>
-    <br>
-    <a href="Mission 6/mission6.html">Mission 6</a>
-    <br>
-    <br>
-    <a href="Mission 7/Contenu SecNumacadémie.png">Mission 7</a>
-    <br>
-    <br>
-    <a href="Mission 8/mission8.html">Mission 8</a>
-    <br>
-    <br>
-    <a href="Mission 9/mission9.html">Mission 9</a>
-    <br>
-    <br>
-    <h2>Mes Certifications</h2>
-    <br>
-    <a href="Certifications/certif.html">MOOC ANSSI</a>
-    <br>
-    <a href="Certifications/certif2.html">MOOC EBIOS</a>
-    <br>
-    <a href="Certifications/certif3.html">MOOC CNIL</a>
-    
-    
+<!-- =====================================================
+     🟢 LOADING SCREEN (INVISIBLE AU DÉPART)
+     → activé UNIQUEMENT après clic sur "VOIR"
+===================================================== -->
+<div id="screen-fade"></div>
+
+<div id="loading-screen">
+  <div id="starField"></div>
+  
+<div class="loading-decor">
+  <img src="IMG FOLIO/planet.jpg" class="planet">
+  <img src="IMG FOLIO/rocket.jpg" class="rocket">
+  <img src="IMG FOLIO/boy.jpg" class="boy">
+  <img src="IMG FOLIO/skate.jpg" class="skate">
+</div>
+
+  <div class="loading-ui">
+    <div id="loadingPercent">0%</div>
+
+    <div class="loading-bar-wrap">
+      <div id="loadingBar"></div>
+    </div>
+
+    <div id="loadingText">Initialisation...</div>
+  </div>
+</div>
+
+
+<main id="wrap">
+
+<!-- =====================================================
+     🟢 INTRO
+===================================================== -->
+<section id="intro" class="section intro" style="background-image:url('IMG FOLIO/space.jpg')">
+  <div class="intro-overlay">
+    <div id="stars"></div>
+
+    <div class="intro-words">
+      <div id="word-top" class="filante">Portfolio</div>
+      <div id="word-bottom" class="filante small">Obede Ntaku</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- =====================================================
+     🟢 SCÈNE AVEC CARTES
+===================================================== -->
+<section id="scene" class="section scene" style="background-image:url('IMG FOLIO/earth.jpg')">
+
+  <div class="scene-inner">
+
+    <div class="cards-container" id="cardsContainer">
+
+      <!-- =========================
+           🟢 CARTE TP
+           ========================= -->
+      <div class="card-slot">
+        <div class="card" data-target="tp.html">
+          <div class="card-inner">
+
+            <div class="card-face front">
+              <img src="IMG FOLIO/cardfronttp.jpg" alt="TP">
+            </div>
+
+            <div class="card-face back">
+              <img src="IMG FOLIO/cardbacktp.jpg" alt="TP verso">
+              <div class="card-back-text">
+                <button class="btn-see">Voir</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- =========================
+           🟢 CARTE MISSIONS
+           ========================= -->
+      <div class="card-slot">
+        <div class="card" data-target="missions.html">
+          <div class="card-inner">
+
+            <div class="card-face front">
+              <img src="IMG FOLIO/cardfrontmi.jpg" alt="Missions">
+            </div>
+
+            <div class="card-face back">
+              <img src="IMG FOLIO/cardbackmi.jpg" alt="Missions verso">
+              <div class="card-back-text">
+                <button class="btn-see">Voir</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- =========================
+           🟢 CARTE CERTIFS
+           ========================= -->
+      <div class="card-slot">
+        <div class="card" data-target="certifs.html">
+          <div class="card-inner">
+
+            <div class="card-face front">
+              <img src="IMG FOLIO/cardfrontce.jpg" alt="Certifications">
+            </div>
+
+            <div class="card-face back">
+              <img src="IMG FOLIO/cardbackce.jpg" alt="Certifications verso">
+              <div class="card-back-text">
+                <button class="btn-see">Voir</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="contact-link">À propos / Contact</div>
+
+  </div>
+</section>
+
+</main>
+
+<!-- =========================
+     🟢 SCRIPTS
+========================= -->
+<script src="loading.js"></script>
+<script src="main.js"></script>
+
 </body>
-
 </html>
-
